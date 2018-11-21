@@ -1,1 +1,1 @@
-autocmd FileType javascript,javascript.jsx call htmltemplateliterals#amendSyntax()
+autocmd FileType javascript,javascript.jsx,typescript,typescript.tsx,tsx call htmltemplateliterals#amendSyntax()
