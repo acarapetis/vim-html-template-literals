@@ -2,6 +2,8 @@ Syntax highlighting and indentation for
 [**lit-html**](https://github.com/Polymer/lit-html). Largely inspired by
 [**vim-jsx**](https://github.com/mxw/vim-jsx).
 
+This fork adds support for lit-html templates in typescript files.
+
 ## Supported Syntaxes inside ``html`...` ``
 - HTML (including CSS embedded in `<style>` tags)
 - JavaScript string interpolation (`${...}`)
@@ -10,12 +12,15 @@ Syntax highlighting and indentation for
 ## Installation
 
 This plugin requires
-[**vim-javascript**](https://github.com/pangloss/vim-javascript). If you use
+[**vim-javascript**](https://github.com/pangloss/vim-javascript) 
+for javascript or 
+[**typescript-vim**](https://github.com/leafgarland/typescript-vim)
+for typescript. If you use
 [**vim-plug**](https://github.com/junegunn/vim-plug) for package management,
 installation looks like this:
 
 ```vim
-Plug 'jonsmithers/experimental-lit-html-vim'
+Plug 'acarapetis/experimental-lit-html-vim'
 Plug 'pangloss/vim-javascript'
 ```
 
