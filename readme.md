@@ -2,7 +2,7 @@ Syntax highlighting and indentation for
 [**lit-html**](https://github.com/Polymer/lit-html). Largely inspired by
 [**vim-jsx**](https://github.com/mxw/vim-jsx).
 
-This fork adds support for lit-html templates in typescript files.
+This fork adds support for lit-html templates in typescript files. **NOTE**: looks like typescript is now supported by the original version, so don't install my hacky nonsense!
 
 ## Supported Syntaxes inside ``html`...` ``
 - HTML (including CSS embedded in `<style>` tags)
